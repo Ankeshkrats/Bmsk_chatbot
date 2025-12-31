@@ -663,13 +663,13 @@ function showDataTypeSelection() {
             <div class="data-type-cards">
                 <div class="data-type-card" onclick="selectDataType('forecast')">
                     <div class="card-image forecast-image">
-                        <img src="../images/forecast.png" alt="Weather Forecast">
+                        <img src="forecast.png" alt="Weather Forecast">
                     </div>
                     <div class="card-label">${content[currentLanguage].forecast}</div>
                 </div>
                 <div class="data-type-card" onclick="selectDataType('observed')">
                     <div class="card-image observed-image">
-                        <img src="../images/observed.png" alt="Current Weather">
+                        <img src="observed.png" alt="Current Weather">
                     </div>
                     <div class="card-label">${content[currentLanguage].observed}</div>
                 </div>
